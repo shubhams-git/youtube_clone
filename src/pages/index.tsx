@@ -1,13 +1,10 @@
-import { VideoCard } from "@/components/VideoCard";
+import { VideoGrid } from "@/components/VideoGrid";
+import { Appbar } from "@/components/Appbar";
 export default function Home() {
   return (
     <div>
-      <VideoCard thumbnail={"photo.jpg"}
-        logo={"logo.jpg"}
-        title={"RATAN TATA PASSED AWAY | Every Indian Salutes the Great Man | By Prashant Dhawan"}
-        author={"Study IQ IAS"}
-        views={"1M views"}
-        timestamp={"50 minutes ago"}/>
+      <Appbar />
+      <VideoGrid />
     </div>
   );
 }
