@@ -1,10 +1,12 @@
+import { SearchBar } from "./Searchbar"
+
 export const Appbar =()=>{
-    return <div className="flex justify-between pl-5 pt-5 pr-5">
+    return <div className="flex justify-between">
         <div>
             Youtube
         </div>
-        <div>
-            Search Bar
+        <div className="w-2/5">
+            <SearchBar/>
         </div>
         <div>
             Sign in
