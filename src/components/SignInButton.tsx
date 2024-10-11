@@ -3,7 +3,7 @@ export const SignInButton = () => {
       <div>
         <button
           type="button"
-          className="flex justify-between items-center w-full text-white bg-transparent focus:bg-gray-500 rounded-full border-2 border-gray-800 font-medium text-sm px-4 py-2"
+          className="flex justify-between items-center w-full text-white bg-transparent hover:bg-gray-500 rounded-full border-2 border-gray-800 font-medium text-sm px-4 py-2"
         >
           <img
             src="user.png"
