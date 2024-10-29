@@ -1,6 +1,6 @@
 
 export const SearchBar = ()=>{
-    return <div className="w-full pr-7">
+    return <div className="w-full md:pr-7">
                 <div className="flex rounded-full border-2 border-gray-800 focus-within:border-blue-800 transition-colors duration-300 overflow-hidden w-full mx-auto font-[sans-serif]">
                     <input 
                         type="email" 
