@@ -8,9 +8,9 @@ export const SignInButton = () => {
           <img
             src="user.png"
             alt="User Icon"
-            className="bg-white border-[1px] border-white rounded-full w-7 h-7"
+            className="bg-white border-[1px] border-white rounded-full size-6 md:size-7"
           />
-          <p className="text-base font-bold pl-2">Sign in</p>
+          <p className="text-[12px] font-light md:text-sm lg:tex-base sm:font-bold pl-2">Sign in</p>
         </button>
       </div>
     );
