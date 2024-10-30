@@ -6,12 +6,14 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  darkMode: "class", // Apply dark mode based on a class
+  darkMode: "media", 
   theme: {
     extend: {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        lightSubtitle:"#606060",
+        lightSignIn:"#065fd4",
       },
     },
   },

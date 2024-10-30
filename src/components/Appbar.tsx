@@ -4,8 +4,11 @@ import { SignInButton } from "./SignInButton"
 
 export const Appbar =()=>{
     return <div className="flex justify-between p-2">
-        <div className="text-md inline-flex items-center cursor-pointer">
+        {/* <div className="hidden dark:block text-md items-center cursor-pointer">
             <img src="youtube-logo.svg" className="w-32 h-11 object-cover"></img>
+        </div> */}
+        <div>
+            <img src="YouTube-Logo.wine.svg" className="w-44 h-12 object-cover cursor-pointer"></img>
         </div>
         <div className="flex items-center w-2/3 sm:w-2/3 md:w-3/5 lg:w-2/5">
             <SearchBar/>

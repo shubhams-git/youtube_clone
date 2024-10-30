@@ -5,14 +5,14 @@ export function VideoCard(props:any){
             <div className="col-span-1 size-14">
                 <img className="rounded-full size-12" src={props.logo}></img>
             </div>
-            <div className="col-span-11 pl-7 pt-0.5">
-                <div className="font-bold text-xl">
+            <div className="col-span-11 pl-7 pt-0.5 text-black dark:text-white">
+                <div className="font-bold text-[22px]">
                     {props.title}
                 </div>
-                <div className="col-span-11 text-gray-400 text-lg">
+                <div className="col-span-11 text-lightSubtitle font-medium dark:text-gray-400 text-xl">
                     {props.author}
                 </div>
-                <div className="col-span-11 text-gray-400 text-lg">
+                <div className="col-span-11 text-lightSubtitle dark:text-gray-400 text-xl">
                     {props.views}・{props.timestamp}
                 </div>
             </div>
